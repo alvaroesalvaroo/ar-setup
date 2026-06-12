@@ -16,6 +16,11 @@ public class InGameConsole : MonoBehaviour
         Application.logMessageReceived += HandleLog;
     }
 
+    void Start()
+    {
+        Debug.Log("Init logs");
+    }
+
     void OnDestroy()
     {
         Application.logMessageReceived -= HandleLog;
