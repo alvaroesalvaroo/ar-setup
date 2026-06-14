@@ -15,12 +15,7 @@ public class InGameConsole : MonoBehaviour
     {
         Application.logMessageReceived += HandleLog;
     }
-
-    void Start()
-    {
-        Debug.Log("Init logs");
-    }
-
+    
     void OnDestroy()
     {
         Application.logMessageReceived -= HandleLog;
@@ -33,7 +28,7 @@ public class InGameConsole : MonoBehaviour
             LogType.Error     => "#FF4444",
             LogType.Exception => "#FF4444",
             LogType.Warning   => "#FFAA00",
-            _ => "#FFFFFF"
+            _ => "#777777"
         };
 
         logs.Add($"<color={color}>[{type}] {message}</color>");
