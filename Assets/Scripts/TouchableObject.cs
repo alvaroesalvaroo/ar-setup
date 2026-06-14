@@ -7,7 +7,7 @@ public class TouchableObject : MonoBehaviour
     
     public ParticleSystem ps;
     private MeshRenderer meshRenderer;
-
+    public Item item;
     void Start()
     {
         meshRenderer = GetComponent<MeshRenderer>();
@@ -17,5 +17,6 @@ public class TouchableObject : MonoBehaviour
     {
         ps.Play();    
         meshRenderer.enabled = false;
+        Inventory.AddItem(this.item);
     }
 }

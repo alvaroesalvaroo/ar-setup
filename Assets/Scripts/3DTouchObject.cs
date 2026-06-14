@@ -26,5 +26,9 @@ public class TouchObject : MonoBehaviour
             Debug.Log($"Tocado: {hit.collider.gameObject.name}");
             hit.collider.gameObject.SendMessage("OnTouched", SendMessageOptions.DontRequireReceiver);
         }
+        else
+        {
+            Debug.Log("Raycast no tocó nada");
+        }
     }
 }

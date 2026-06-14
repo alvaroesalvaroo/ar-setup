@@ -1,8 +1,10 @@
-using UnityEngine;
 
-public class Item : MonoBehaviour
+using System;
+
+[Serializable]
+public class Item
 {
-    public string name;
+    public string itemName;
     public int value;
     public string description;
 }

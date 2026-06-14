@@ -26,7 +26,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.23}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2085445513043136970}
@@ -128,10 +128,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 7049982568362171713}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a1cfac61a4f4ba4994fbee0908f25a1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7943510842184113130}
   m_SourcePrefab: {fileID: 100100000, guid: 0a1cfac61a4f4ba4994fbee0908f25a1, type: 3}
 --- !u!1 &1710010002375052144 stripped
 GameObject:
@@ -175,21 +171,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ps: {fileID: 7424119603482059943}
---- !u!114 &7943510842184113130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710010002375052144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbc78d57f88863e49874d9cf2a14dd0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: Llave del mercado
-  value: 5
-  description: Llave secreta del mercado del cabanyal
+  item:
+    itemName: Llave del mercado
+    value: 3
+    description: "Llave que abre el hist\xF3rico mercado del cabanyal"
 --- !u!4 &2085445513043136970 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0a1cfac61a4f4ba4994fbee0908f25a1,

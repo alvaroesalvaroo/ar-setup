@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
-  m_Name: NewMarkerReference
+  m_Name: AllMarkers
   m_EditorClassIdentifier: 
   m_GuidLow: 5471830854007908947
   m_GuidHigh: 8903053637927841975
@@ -25,5 +25,15 @@ MonoBehaviour:
       m_GuidHigh: 11429408481293343803
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: azulejos-valencia
+    m_Name: azulejo1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5621381616214627134
+      m_GuidHigh: 10941447027866362290
+    m_SerializedTextureGuid:
+      m_GuidLow: 253395936251741720
+      m_GuidHigh: 13923083848719816233
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: azulejo2
     m_Texture: {fileID: 0}
